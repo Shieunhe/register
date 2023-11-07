@@ -12,10 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
         $query = mysqli_query($connect, $sql);
 
         if ($query){
-            echo "bryan";
+            echo "TRY TRY TRY";
         }
         else{
-            echo "libante";
+            echo "GO GO GO";
         }
 
 
