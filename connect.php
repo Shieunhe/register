@@ -12,10 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
         $query = mysqli_query($connect, $sql);
 
         if ($query){
-            echo "SUCCESS";
+            echo "bryan";
         }
         else{
-            echo "FAILED";
+            echo "libante";
         }
 
 
